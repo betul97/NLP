@@ -1,0 +1,43 @@
+---------Time Series Forecasting Steps--------
+
+In This Article, our focus will be on understanding generalised steps in Time Series Forecasting and Analysis.
+
+1-Define Goal
+2-Get Data
+3-Explore and Visualize Data
+4-Preprocess Data
+5-Partition Series
+6-Applying Forecasting Methods
+7-Evaluate & compare Performance
+8-Implement Forecast System
+9-Goal Definition
+we should be clear about our objective determining and clearly defining the forecasting goal is essential for arriving at useful results. Here is a list of some of the questions that you must answer before starting the analysis.
+
+The purpose of generating a forecast.
+The type of forecast that is needed
+How the forecast will be used by the organization
+What are the costs associated with forecast errors,
+What data will be available in the future, and more
+Deep Diving 
+First comes whether our goal is descriptive analysis or predictive analysis. Time series data modelling, as done for either descriptive or predictive purposes descriptive modelling of a time series is modelled to determine its competence in terms of seasonal patterns or trends or relation to external factors and the like. These can then be used for decision-making and policy formulation.
+
+For example, if you want to find out the effect of the rainy season on travel bookings, that is descriptive analysis.
+
+In contrast, predictive analysis uses the information in a time series to forecast future values of that series. For example, if you want to find out the number of travel bookings that will be done in the coming three months, that is predictive analysis.
+
+The difference between descriptive and predictive goals leads to the differences in the types of methods used and in the modelling process itself. For example, in selecting a method for describing a time series or even for explaining its patterns, priority is given to methods that produce explainable results. And to models which are based on causal arguments, on the other hand, are predictive models judged by their predictive accuracy rather than their ability to provide a correct explanation.
+
+In short, for descriptive analysis, we those models are preferred, which are more explainable, and for predictive analysis, we prefer those models which give higher accuracy, even if they are complex and not easily explainable.
+
+Let's consider an example. To understand this more clearly, Amtrak is a U.S. railway company which routinely collects data on ridership. In this example, we will look at this series of monthly Amtrak ridership between January 1991 and March 2004 in the United States. now what could be the different analysis goals for a railway company?
+
+One possible analysis goal that Amtrak might have is to forecast future monthly ridership on its trains for the purpose of pricing. Clearly, this is a predictive goal Setting the prices as per demand is a popular practice by airlines and hotel chains. You may have noticed hotel and flight prices are higher in a peak travel season as compared to another season. This strategy of pricing is called revenue management.
+
+Anyway, predicting future ridership is a predictive goal a different goal for which Amtrak might want to use the ridership data for the impact assessment or for evaluating the effect of some event for example, airport closure due to bad weather or the opening of a new large national highway. This goal is retrospective in nature.
+
+That airport was closed probably last month and we are trying to establish the impact of that event on railway ridership Now, this goal is therefore descriptive as it will describe the effect of that event. This analysis would compare the series before and after the event, and no direct interest is shown in the future values of the series.
+
+With these two examples, I hope that you can clearly differentiate between descriptive and predictive, goals. Predictive analysis is also called Time series forecasting, whereas descriptive analysis is called time series analysis.
+
+
+
